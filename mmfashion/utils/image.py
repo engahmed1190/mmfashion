@@ -54,4 +54,4 @@ def draw_landmarks(img_file, landmarks, r=2):
         x = lm[0]
         y = lm[1]
         draw.ellipse([(x-r, y-r), (x+r, y+r)], fill=(255, 0, 0, 0))
-    img.save("demo/imgs/landmark_predict/demo-result-1.jpg ")
+    img.save("demo/imgs/landmark_predict/demo-result-1.jpg")
